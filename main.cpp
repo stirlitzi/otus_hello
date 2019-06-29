@@ -5,8 +5,8 @@
 using namespace std;
 int main (int, char **)
 {
-    cout << "Hello, world!";
-    cout << "Version: " << version() << std::endl;
+    cout << "Hello, world!" << endl;
+    cout << "Version: " << version() << endl;
 
     return 0;
 }
