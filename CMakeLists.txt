@@ -6,7 +6,7 @@ project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 #set(Boost_USE_STATIC_LIBS ON)
 #set(BOOST_ROOT "C:/Users/User/CLionProjects/otus/hw1/boost_1_70_0")
 #set(BOOST_LIBRARYDIR "C:/Users/User/CLionProjects/otus/hw1/boost_1_70_0/libs")
-find_package(hw1/boost COMPONENTS unit_test_framework)
+find_package(Boost COMPONENTS unit_test_framework)
 
 
 #include_directories(${Boost_INCLUDE_DIR})
